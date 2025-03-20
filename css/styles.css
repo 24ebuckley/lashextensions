@@ -39,9 +39,16 @@ nav.navbar a.navbar-brand {
   color: #EF0763;
 }
 /* Image Styles */
-#carouselExampleIndicators1 img {
+#carouselExampleIndicators1 img, section img, video {
   width: 100%;
   height: auto;
+}
+
+#lashbeforeafter {
+    width: 60%;
+}
+#hybridlash {
+    width: 60%;
 }
 /* Search Form Styles */
 form .form-inline {
@@ -74,6 +81,10 @@ form.form-inline button[type=submit] {
 form.form-inline button.btn:hover {
   background: transparent;
   color: hotpink; /*Change the color insire the GO buttom bar*/
+}
+
+#lashtech {
+    width: 155%;
 }
 /* Text Styles */
 h1 {
@@ -149,8 +160,8 @@ footer h2 {}
   padding: 0;
 }
 .footerR p.linked {
-  background: url("../images/linkedin.png") no-repeat right; /*this is adding a background link and the bottom of the website*/
-  padding-right: 30px;
+  background: url("../images/logoel.jpg") no-repeat right; /*this is adding a background link and the bottom of the website*/
+  padding-right: 35px;
 }
 /* Comment Form Styles */
 #frmComment {
@@ -177,9 +188,9 @@ footer h2 {}
 #frmComment input {
   float: left;
   width: 50%;
-  border: 1.5px solid #EF0763;
+  border: 1px solid #EF0763;
   margin: 10px 0 0 20px;
-  padding: 10px 5px;
+  padding: 20px 5px;
   height: 18px;
 }
 #frmComment input:hover, #frmComment textarea:hover {
@@ -189,16 +200,16 @@ footer h2 {}
   float: left;
   width: 51%;
   margin: 8px 0 0 20px;
-  border: solid 1.5px #EF0763;
+  border: solid 1px #EF0763;
   box-shadow: 2px 8px 8px #F4C2C2;
   padding: 5px 0 0 5px;
 }
 select {
   width: 50%;
-  padding: 5px 5px 5px 5px;
+  padding: 20px 5px;
   margin: 18px 0 0 20px;
   border: 1.5px solid #EF0763;
-  font-size: 10px;
+  font-size: 16px;
 }
 #frmComment input[type=submit] {
   padding: 10px 2px; /*This is gonna change the space inside the box*/
